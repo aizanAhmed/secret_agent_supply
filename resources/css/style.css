@@ -145,3 +145,11 @@ nav ul {
 .info span {
     color: black;
 }
+
+/* Footer Section */
+
+footer {
+    margin-top: 5rem;
+    padding: 2.5rem 0;
+    background-color: black;
+}
