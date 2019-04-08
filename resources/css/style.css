@@ -96,6 +96,17 @@ nav ul {
     display: none;
 }
 
+@media only screen and (max-width: 1024px) {
+    nav ul {
+        display: none;
+    }
+
+    .mob-nav {
+        display: block;
+        text-align: center;
+    }
+}
+
 /* Product Grid & Company info Section */
 
 .products,
@@ -144,6 +155,16 @@ nav ul {
 
 .info span {
     color: black;
+}
+
+@media only screen and (max-width: 1024px) {
+    .product.glass {
+        display: none;
+    }
+
+    .product {
+        width: 47%;
+    }
 }
 
 /* Footer Section */
