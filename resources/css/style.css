@@ -49,3 +49,32 @@ header .container {
 header p {
     padding: 0.66rem 0;
 }
+
+/* Banner Section */
+
+.banner {
+    background-image: url(../images/moto.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+}
+
+.column {
+    position: relative;
+    top: 9rem;
+    width: 20rem;
+    background-color: black;
+}
+
+.column h4 {
+    padding-top: 2rem;
+    padding-left: 3rem;
+    font-size: 1rem;
+}
+
+.column h1 {
+    padding-left: 3rem;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
